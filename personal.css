@@ -52,11 +52,10 @@ header .links {
     position: relative;
     display: block;
     overflow: hidden;
-    max-height: 300px;
-    min-height: 200px;
+    height: 310px;
 }
 .hero-section img {
-   height: auto;
+   height: max-content;
     width: 100%;
     float: right;
 }
@@ -213,16 +212,6 @@ header .links {
     .links .right1 a {
         font-size: 1rem;
     }
-    .hero-section {
-        position: relative;
-        display: block;
-        overflow: hidden;
-    }
-    .hero-section img {
-       /* height: auto; */
-        width: 100%;
-        float: right;
-    } 
     .allan {
         top: 75px;
         align-items: center;
@@ -233,12 +222,6 @@ header .links {
     }
 }
 @media all and (max-width: 620px) {
-    .hero-section {
-        position: relative;
-        display: block;
-        overflow: hidden;
-
-    }
     .hero-section img {
        /* height: auto; */
         width: 100%;
