@@ -52,10 +52,10 @@ header .links {
     position: relative;
     display: block;
     overflow: hidden;
-    height: 310px;
+    height: 350px;
 }
 .hero-section img {
-   height: max-content;
+   height: 300px;
     width: 100%;
     float: right;
 }
@@ -213,7 +213,7 @@ header .links {
         font-size: 1rem;
     }
     .allan {
-        top: 75px;
+        top: 77px;
         align-items: center;
         font-weight: bold;
         font-size: 1.2rem;
@@ -223,7 +223,6 @@ header .links {
 }
 @media all and (max-width: 620px) {
     .hero-section img {
-       /* height: auto; */
         width: 100%;
         float: right;
     }
@@ -329,5 +328,20 @@ header .links {
     }
     .menu-btn.open .menu-btn_burger::after {
         transform: rotate(-45deg) translate(-35px, -35px);
+    }
+}
+@media all and (max-width: 300px) {
+    .allan {
+        top: 20px;
+        align-items: center;
+        font-size: 1rem;
+        line-height: 1;
+        width: 80%;
+    }
+    .hero-section {
+        height: 420px;
+    }
+    .hero-section img {
+        max-height: 400px;
     }
 }
