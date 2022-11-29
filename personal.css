@@ -223,7 +223,7 @@ header .links {
 }
 @media all and (max-width: 620px) {
     .hero-section img {
-        height: 450px;
+        height: 400px;
         width: 100%;
         float: right;
     }
