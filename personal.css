@@ -267,12 +267,14 @@ header .links {
      .links.responsive {
         position: relative;
         background: rgba(253, 252, 251, 0.13);
-        backdrop-filter: blur(5px); 
+        backdrop-filter: blur(5px);
+        overflow: hidden;
     }
      .links.responsive .navlist,
      .links.responsive .right1 {
         display: inline;
         float: none;
+      
     }
      .links.responsive .navlist a,
      .links.responsive .right1 a {
